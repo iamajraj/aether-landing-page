@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth bg-black">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aether | Remote OS Upgrade Kit | Muhammad Raj</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'brand-base': '#0a0a0a',
+                        'brand-surface': '#1a1a1a',
+                        'brand-stroke': '#2a2a2a',
+                        'brand-light': '#dcdfe4',
+                        'brand-muted': '#888890',
+                        'brand-accent': '#00ff9d',
+                        'brand-accent-light': '#3fffb7',
+                        'brand-accent-dark': '#00e68a',
+                    },
+                    fontFamily: {
+                        'sans': ['Inter', 'sans-serif'],
+                        'mono': ['IBM Plex Mono', 'monospace']
+                    },
+                    letterSpacing: {
+                         'tighter-lg': '-0.04em',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-brand-base">
+
+    <div class="gradient-flare top-[-20%] left-[-10%] w-[600px] h-[600px]"></div>
+    <div class="gradient-flare bottom-[-30%] right-[-15%] w-[700px] h-[700px] opacity-10"></div>
+
+    <header class="fixed top-0 left-0 w-full z-50 py-5 px-6 md:px-10">
+        <div class="flex justify-between items-center max-w-7xl mx-auto">
+            <div data-aos="fade" data-aos-delay="100">
+                <a href="#" class="font-mono font-semibold text-lg text-brand-light uppercase"><span class="text-brand-accent">&#123;</span> Aether <span class="text-brand-accent">&#125;</span></a>
+            </div>
+            <nav class="space-x-6" data-aos="fade" data-aos-delay="200">
+                <a href="#modules" class="font-mono text-xs text-brand-muted hover:text-brand-light transition-colors duration-200">Modules</a>
+                <a href="#principles" class="font-mono text-xs text-brand-muted hover:text-brand-light transition-colors duration-200">Principles</a>
+                <a href="#initiate" class="font-mono text-xs text-brand-light bg-brand-accent/10 hover:bg-brand-accent/20 border border-brand-accent/30 hover:border-brand-accent px-4 py-1.5 transition-all duration-200 rounded-sm">Initiate Upgrade</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="relative z-10">
+
+        <section class="min-h-screen flex items-center pt-24 pb-16 md:pt-32 md:pb-24 overflow-hidden">
+            <div class="max-w-7xl mx-auto px-6 md:px-10 grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
+                <div class="md:col-span-8 lg:col-span-7 text-center md:text-left">
+                    <div data-aos="fade-up" data-aos-duration="800">
+                        <h1 class="font-mono text-4xl sm:text-6xl md:text-7xl font-semibold text-brand-light leading-none mb-6 tracking-tighter">
+                            Upgrade Your<br><span class="text-accent">Remote OS</span><span class="text-brand-muted">.</span>
+                        </h1>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="150">
+                        <p class="text-lg text-brand-muted max-w-xl mx-auto md:mx-0 mb-10">
+                            The Aether Kit isn't just tools; it's a system upgrade for focus, flow, and seamless remote operation. Access curated protocols and resources.
+                        </p>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="250">
+                        <a href="#initiate" class="cta-button inline-block font-mono font-medium text-black bg-accent py-3 px-8 text-base tracking-wide uppercase rounded-sm">
+                            Initiate v1.0 Access
+                        </a>
+                    </div>
+                </div>
+                <div class="md:col-span-4 lg:col-span-5 h-64 md:h-96 relative" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
+                    <div class="absolute inset-0 border border-brand-stroke/50 flex items-center justify-center p-4 backdrop-blur-sm bg-brand-surface/10">
+                        <div class="w-3/4 h-3/4 border border-brand-accent/30 relative animate-pulse animation-delay-500">
+                             <div class="absolute -top-2 -left-2 w-4 h-4 bg-accent"></div>
+                             <div class="absolute -bottom-2 -right-2 w-4 h-4 bg-accent"></div>
+                             <span class="absolute top-2 right-2 font-mono text-xs text-accent opacity-70">System Ready</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="modules" class="py-20 md:py-28 angled-divider bg-brand-surface">
+            <div class="max-w-7xl mx-auto px-6 md:px-10">
+                <div class="text-center mb-16 md:mb-20" data-aos="fade-up">
+                     <span class="font-mono text-sm text-brand-accent tracking-widest uppercase mb-2 block">&#123; Core Modules &#125;</span>
+                     <h2 class="font-mono text-3xl md:text-4xl font-semibold text-brand-light tracking-tighter">System Components</h2>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+                     <div class="module-card p-6 rounded-lg" data-aos="fade-up" data-aos-delay="100">
+                         <span class="module-index font-mono text-5xl font-bold block mb-4">01</span>
+                       <h3 class="font-semibold text-xl text-brand-light mb-2">Ergo Flow Protocol</h3>
+                         <p class="text-sm text-brand-muted leading-relaxed">Physical workspace optimization blueprints for sustained comfort and energy.</p>
+                     </div>
+                     <div class="module-card p-6 rounded-lg" data-aos="fade-up" data-aos-delay="200">
+                         <span class="module-index font-mono text-5xl font-bold block mb-4">02</span>
+                         <h3 class="font-semibold text-xl text-brand-light mb-2">Async Sync Matrix</h3>
+                         <p class="text-sm text-brand-muted leading-relaxed">Communication frameworks for clarity, reducing noise and maximizing team velocity.</p>
+                     </div>
+                     <div class="module-card p-6 rounded-lg" data-aos="fade-up" data-aos-delay="300">
+                         <span class="module-index font-mono text-5xl font-bold block mb-4">03</span>
+                         <h3 class="font-semibold text-xl text-brand-light mb-2">DeepWork OS</h3>
+                         <p class="text-sm text-brand-muted leading-relaxed">Techniques and digital tools for cultivating focus and achieving flow state reliably.</p>
+                     </div>
+                      <div class="module-card p-6 rounded-lg" data-aos="fade-up" data-aos-delay="100">
+                         <span class="module-index font-mono text-5xl font-bold block mb-4">04</span>
+                         <h3 class="font-semibold text-xl text-brand-light mb-2">Secure Node Guide</h3>
+                         <p class="text-sm text-brand-muted leading-relaxed">Essential security hardening procedures for your remote network and devices.</p>
+                     </div>
+                     <div class="module-card p-6 rounded-lg" data-aos="fade-up" data-aos-delay="200">
+                         <span class="module-index font-mono text-5xl font-bold block mb-4">05</span>
+                         <h3 class="font-semibold text-xl text-brand-light mb-2">Mind Body Interface</h3>
+                         <p class="text-sm text-brand-muted leading-relaxed">Strategies for mental well-being, boundary setting, and preventing remote fatigue.</p>
+                     </div>
+                      <div class="module-card p-6 rounded-lg" data-aos="fade-up" data-aos-delay="300">
+                         <span class="module-index font-mono text-5xl font-bold block mb-4">06</span>
+                         <h3 class="font-semibold text-xl text-brand-light mb-2">Gear Spec Index</h3>
+                         <p class="text-sm text-brand-muted leading-relaxed">Curated index of hardware/software enhancing remote performance (optional).</p>
+                     </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="principles" class="py-24 md:py-36">
+             <div class="max-w-7xl mx-auto px-6 md:px-10 grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+                 <div class="relative h-80 md:h-[500px]" data-aos="zoom-out-right" data-aos-duration="1000">
+                     <div class="absolute inset-5 border border-brand-stroke/30 bg-brand-surface/20 backdrop-blur-sm p-4 flex items-center justify-center">
+                         <span class="font-mono text-8xl text-accent opacity-10">&#123;</span>
+                     </div>
+                      <div class="absolute top-0 left-0 w-2/3 h-2/3 border-t border-l border-brand-accent/40"></div>
+                      <div class="absolute bottom-0 right-0 w-1/2 h-1/2 border-b border-r border-brand-stroke/40"></div>
+                 </div>
+                 <div data-aos="fade-left" data-aos-delay="200" data-aos-duration="800">
+                     <span class="font-mono text-sm text-brand-accent tracking-widest uppercase mb-3 block">&#123; Core Principles &#125;</span>
+                     <h2 class="font-mono text-3xl md:text-4xl font-semibold text-brand-light tracking-tighter mb-8">Engineered for<br>Optimal Remote Function.</h2>
+                     <ul class="space-y-5">
+                         <li class="flex items-start">
+                             <span class="font-mono text-accent mr-4 mt-1">→</span>
+                             <p class="text-brand-muted"><strong class="text-brand-light font-medium">Efficiency by Design:</strong> Eliminate friction, automate routines, focus energy.</p>
+                         </li>
+                         <li class="flex items-start">
+                             <span class="font-mono text-accent mr-4 mt-1">→</span>
+                             <p class="text-brand-muted"><strong class="text-brand-light font-medium">Clarity in Communication:</strong> Structured protocols for effective collaboration.</p>
+                         </li>
+                          <li class="flex items-start">
+                             <span class="font-mono text-accent mr-4 mt-1">→</span>
+                             <p class="text-brand-muted"><strong class="text-brand-light font-medium">Sustainable Performance:</strong> Integrate well-being for long-term productivity.</p>
+                         </li>
+                         <li class="flex items-start">
+                             <span class="font-mono text-accent mr-4 mt-1">→</span>
+                             <p class="text-brand-muted"><strong class="text-brand-light font-medium">Secure Foundation:</strong> Prioritize digital safety in your remote environment.</p>
+                         </li>
+                     </ul>
+                 </div>
+            </div>
+        </section>
+
+        <section id="initiate" class="py-24 md:py-36 border-t border-brand-stroke/50">
+            <div class="max-w-xl mx-auto px-6 text-center">
+                <div data-aos="fade-up">
+                    <h2 class="font-mono text-4xl md:text-5xl font-semibold text-brand-light tracking-tighter mb-6">Initiate<br>Aether Access<span class="text-brand-accent">.</span></h2>
+                    <p class="text-brand-muted mb-10">
+                        Download the complete Remote OS Upgrade Kit v1.0. Includes all modules, guides, and resource links in a consolidated digital package.
+                    </p>
+                    <a href="#" class="cta-button inline-block font-mono font-medium text-black bg-accent py-4 px-10 text-base tracking-wider uppercase rounded-sm">
+                        Download Kit [v1.0]
+                    </a>
+                    <p class="font-mono text-xs text-brand-muted mt-6">Instant Digital Delivery &#123; PDF + Links &#125;</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="py-8 px-6 md:px-10 border-t border-brand-stroke/30 mt-16">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center text-center sm:text-left">
+             <p class="font-mono text-xs text-brand-muted/70 mb-2 sm:mb-0">
+                 © 2025 Aether Systems. All Rights Reserved. <a target="_blank" href="https://github.com/iamajraj">Muhammad Raj</a>
+             </p>
+             <p class="font-mono text-xs text-brand-muted/70">
+                System Operational
+             </p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+            duration: 700,
+            easing: 'ease-out-cubic',
+            offset: 50,
+        });
+    </script>
+
+</body>
+</html>

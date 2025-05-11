@@ -1,0 +1,107 @@
+body {
+  font-family: 'Inter', sans-serif;
+  color: #dcdfe4;
+  background-color: #0a0a0a;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00ff9d;
+  border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3fffb7;
+}
+
+.font-mono {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.text-accent {
+  color: #00ff9d;
+}
+
+.bg-accent {
+  background-color: #00ff9d;
+}
+
+.border-accent {
+  border-color: #00ff9d;
+}
+
+.ring-accent:focus {
+  --tw-ring-color: #00ff9d;
+}
+
+.hover\:text-accent-light:hover {
+  color: #3fffb7;
+}
+
+.hover\:bg-accent-dark:hover {
+  background-color: #00e68a;
+}
+
+.angled-divider {
+  position: relative;
+  transform: skewY(-2deg);
+  margin-top: -5vh;
+  margin-bottom: -5vh;
+  padding: 8vh 0;
+}
+
+.angled-divider>* {
+  transform: skewY(2deg);
+}
+
+.module-card {
+  background-color: rgba(26, 26, 26, 0.6);
+  border: 1px solid #2a2a2a;
+  backdrop-filter: blur(10px);
+  transition: border-color 0.3s ease-out, transform 0.3s ease-out, background-color 0.3s ease-out;
+}
+
+.module-card:hover {
+  border-color: rgba(0, 255, 157, 0.5);
+  background-color: rgba(0, 255, 157, 0.03);
+  transform: translateY(-4px);
+}
+
+.module-card .module-index {
+  color: #444;
+  transition: color 0.3s ease-out;
+}
+
+.module-card:hover .module-index {
+  color: #00ff9d;
+}
+
+.gradient-flare {
+  position: absolute;
+  pointer-events: none;
+  z-index: 0;
+  filter: blur(100px);
+  opacity: 0.15;
+  border-radius: 50%;
+  background: radial-gradient(circle, #00ff9d 0%, transparent 70%);
+}
+
+.cta-button {
+  background: linear-gradient(45deg, #00ff9d, #3fffb7);
+  transition: transform 0.2s ease-out, box-shadow 0.3s ease-out;
+  box-shadow: 0 0 0 0 rgba(0, 255, 157, 0.5);
+}
+
+.cta-button:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 20px 8px rgba(0, 255, 157, 0.3);
+}
